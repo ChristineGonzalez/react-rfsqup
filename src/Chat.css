@@ -49,3 +49,19 @@
   border-radius: 10px;
   width: fit-content;
 }
+
+.chat_name {
+  position: absolute;
+  top: -15px;
+  font-size: xx-small;
+}
+
+.chat_timestamp {
+  margin-left: 10px;
+  font-size: xx-small;
+}
+
+.chat_reciever {
+  margin-left: auto;
+  background-color: #dcf8c6;
+}

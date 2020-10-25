@@ -35,8 +35,12 @@ function Chat(){
      </div>
      
      <div className="body_chat">
-      <p className="chat_name">Ayleen</p>
-      <p className="chat_message">hey</p>
+      <p className={`chat_message ${true && "chat_reciever"}`}> {/* String interpolation */}
+         <span className="chat_name">Ayleen</span>
+         Hey people
+         <span className="chat_timestamp">3:00 pm</span>
+      </p>
+      
      </div>
      
      <div className="footer_chat">
