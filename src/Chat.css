@@ -65,3 +65,20 @@
   margin-left: auto;
   background-color: #dcf8c6;
 }
+
+.footer_chat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+  border-top: 1px solid lightgrey;
+}
+
+.footer_chat > form {
+  flex: 1;
+  display: flex;
+}
+
+.footer_chat > form > input {
+  flex: 1;
+}
