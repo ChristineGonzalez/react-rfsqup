@@ -77,6 +77,7 @@
 .footer_chat > form {
   flex: 1;
   display: flex;
+  
 }
 
 .footer_chat > form > input {
@@ -84,6 +85,7 @@
   border-radius: 30px;
   border: none;
   padding: 10px;
+  
 }
 
 .footer_chat > form > button {
