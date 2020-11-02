@@ -18,6 +18,7 @@ function Chat(){
    const sendMeassage= (e) => {
      e.preventDefault();
      console.log("You type>>>", input);
+     setInput(""); //para que limpie la caja de entrada después de submit
    }
 
   return(
